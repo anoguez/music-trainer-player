@@ -1,0 +1,34 @@
+{
+  "roles": {
+    "backend": {
+      "max_concurrent": 1,
+      "agent": "backend-api-developer",
+      "label": "agent:backend"
+    },
+    "frontend": {
+      "max_concurrent": 1,
+      "agent": "senior-frontend",
+      "label": "agent:frontend"
+    },
+    "devops": {
+      "max_concurrent": 1,
+      "agent": "devops-engineer",
+      "label": "agent:devops"
+    },
+    "qa": {
+      "max_concurrent": 1,
+      "agent": "qa-test-engineer",
+      "label": "agent:qa"
+    },
+    "architect": {
+      "max_concurrent": 1,
+      "agent": "software-architect",
+      "label": "agent:architect"
+    },
+    "writer": {
+      "max_concurrent": 1,
+      "agent": "technical-writer",
+      "label": "agent:writer"
+    }
+  }
+}
